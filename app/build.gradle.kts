@@ -116,6 +116,9 @@ dependencies {
 
     implementation(libs.coil.kt)
     implementation(libs.coil.kt.svg)
+
+    implementation("com.google.android.material:material:1.7.0")
+    implementation("androidx.fragment:fragment-ktx:1.5.4")
 }
 
 // androidx.test is forcing JUnit, 4.12. This forces it to use 4.13
